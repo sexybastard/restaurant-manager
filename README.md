@@ -12,33 +12,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+### Techs
+Database using firebase firestore, realtime database using firebase realtime database. Not using any API, access directly to database instead. Using ReactJs and Redux as the state management.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### What You Can Do
+* Login / Signup
+The landing page is login screen, you can basically type whatever you want, not restricted to email. Then when you hit 'login', the system will check the firestore, if you already have a user registered under that word, then you will login as that user, on the other hand, if no user was found under that word, the system will create a new user with that word.
+* Restaurant List
+Here will display you the restaurant list, you can filter the list by picking any date or time, then the list will re filter. In this screen you also able to add the selected restaurant to your collection under certain name that you input your self.
+* Collection List
+Here will display you all the collection you got. whether it is your own, or someone invite you as collaborator. In this screen you can edit collection name, add or remove collaborator, and remove restaurant from collection. Note that every action that you do here is realtime. So you can just open two tabs of this app, then on first web you do any changes, will automatically apply the changes on the other tab as well.
 
-### `npm run build`
+## Time cost
+I've been doing this in between my dayjob sometimes, and sometimes after working hour. I can't get my hand on this on weekeend since i got a quite time demanding girlfriend lol. maybe 8 days times 3 hours a day so it'll be around 24 hours i guess.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Notes
+Dig in. Please feel free to email me if you found any issue.
