@@ -13,7 +13,7 @@ The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
 ### Techs
-Database using firebase firestore, realtime database using firebase realtime database. Not using any API, access directly to database instead. Using ReactJs and Redux as the state management.
+Database using firebase firestore, realtime database using firebase realtime database. Not using any API, access directly to database instead. Using ReactJs and Redux as the state management. I also created a converter using javascript to convert the csv into JSON structure that i desired and create it on firestore.
 
 ### What You Can Do
 * Login / Signup
